@@ -35,4 +35,9 @@ public class AppTest {
     public void sampleProperty() {
         logger.info("sample.property is " + System.getProperty("sample.property"));
     }
+
+    @Test
+    public void sauceProperty() {
+        logger.info("SELENIUM_DRIVER is " + System.getProperty("SELENIUM_DRIVER"));
+    }
 }
