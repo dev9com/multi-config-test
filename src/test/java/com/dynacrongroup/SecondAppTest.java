@@ -10,13 +10,13 @@ public class SecondAppTest {
     Logger logger = LoggerFactory.getLogger(SecondAppTest.class);
 
     public SecondAppTest() {
-        logger.info("AppTest Constructor");
+        logger.info("SecondAppTest Constructor");
     }
 
     @Test
     public void testApp() {
         assertTrue(true);
-        logger.info("AppTest.testApp called");
+        logger.info("SecondAppTest.testApp called");
     }
 
     @Test
@@ -35,4 +35,10 @@ public class SecondAppTest {
     public void sampleProperty() {
         logger.info("sample.property is " + System.getProperty("sample.property"));
     }
+
+    @Test
+    public void sauceProperty() {
+        logger.info("SELENIUM_DRIVER is " + System.getProperty("SELENIUM_DRIVER"));
+    }
+
 }
