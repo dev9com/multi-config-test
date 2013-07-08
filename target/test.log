@@ -1,8 +1,0 @@
-11:00:53.622 INFO  com.dynacrongroup.AppTest                | AppTest Constructor
-11:00:53.627 INFO  com.dynacrongroup.AppTest                | JDK being run is 1.6.0_51
-11:00:53.633 INFO  com.dynacrongroup.AppTest                | AppTest Constructor
-11:00:53.633 INFO  com.dynacrongroup.AppTest                | sample.property is null
-11:00:53.633 INFO  com.dynacrongroup.AppTest                | AppTest Constructor
-11:00:53.634 INFO  com.dynacrongroup.AppTest                | AppTest.testApp called
-11:00:53.634 INFO  com.dynacrongroup.AppTest                | AppTest Constructor
-11:00:53.634 INFO  com.dynacrongroup.AppTest                | OS being run is 10.8.4
