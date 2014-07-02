@@ -1,4 +1,4 @@
-package com.dynacrongroup;
+package com.dev9;
 
 import org.junit.Test;
 import org.slf4j.Logger;
@@ -6,17 +6,17 @@ import org.slf4j.LoggerFactory;
 
 import static org.junit.Assert.assertTrue;
 
-public class AppTest {
-    Logger logger = LoggerFactory.getLogger(AppTest.class);
+public class SecondAppTest {
+    Logger logger = LoggerFactory.getLogger(SecondAppTest.class);
 
-    public AppTest() {
-        logger.info("AppTest Constructor");
+    public SecondAppTest() {
+        logger.info("SecondAppTest Constructor");
     }
 
     @Test
     public void testApp() {
         assertTrue(true);
-        logger.info("AppTest.testApp called");
+        logger.info("SecondAppTest.testApp called");
     }
 
     @Test
@@ -40,4 +40,5 @@ public class AppTest {
     public void sauceProperty() {
         logger.info("SELENIUM_DRIVER is " + System.getProperty("SELENIUM_DRIVER"));
     }
+
 }

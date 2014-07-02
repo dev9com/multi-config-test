@@ -13,7 +13,7 @@
         </encoder>
     </appender>
 
-    <!-- Appender specifying the main log for this application. Catches com.dynacrongroup
+    <!-- Appender specifying the main log for this application. Catches com.dev9
         and child events -->
     <appender name="testFileAppender" class="ch.qos.logback.core.FileAppender">
         <file>target/test.log</file>
@@ -33,12 +33,12 @@
     </appender>
 
     <!-- Grabs the data from the timer and pipes it to a CSV file -->
-    <logger name="com.dynacrongroup.selenium.Timing" level="TRACE"
+    <logger name="com.dev9.selenium.Timing" level="TRACE"
             additivity="false">
         <appender-ref ref="TIMINGFILE"/>
     </logger>
 
-    <logger name="com.dynacrongroup" level="DEBUG">
+    <logger name="com.dev9" level="DEBUG">
         <appender-ref ref="testFileAppender"/>
     </logger>
 
